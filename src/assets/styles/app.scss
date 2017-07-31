@@ -1,0 +1,36 @@
+@import './variables';
+
+html {
+  margin: 0;
+  padding: 0;
+  color: $base-font-color;
+  font-size: $base-font-size;
+  background: #f8f8f8;
+  font-family: $base-font-family;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 0 $base-spacing-unit;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0 0 $base-spacing-unit-small 0;
+}
+
+h2 {
+  font-size: 1.75rem;
+  margin: 0 0 $base-spacing-unit-small 0;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin: 0 0 $base-spacing-unit-small 0;
+}
